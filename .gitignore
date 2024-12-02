@@ -1,0 +1,34 @@
+redes2024_ob2/*.pcap
+redes2024_ob2/sr
+redes2024_ob2/reenvio/sr
+
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+*.pyc
+
+# Ignore dependency files
+*.d
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore compiled static libraries
+*.a
+*.lib
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+
+# Ignore editor and IDE specific files
+*.swp
+*~
+.vscode/
+.idea/
